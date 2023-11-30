@@ -3,14 +3,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {Container, Row,Col} from "reactstrap";
 import Menu from './components/Menu';
 import Rodape from './components/Rodape';
-import {BrowserRouter, Link, Route, Routes} from 'react-router-dom'
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Home from './pages/Home';
 import Cardapio from './pages/Cardapio';
 import Contato from './pages/Contato';
 
 function App() {
   return (
-    <Container fluid>
+    <Container fluid className='bg-dark text-white p-0 overflow-hidden'>
   
       <BrowserRouter>
       <Row>
